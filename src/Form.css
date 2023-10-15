@@ -1,0 +1,30 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.form-field {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+input {
+    margin-left: 10px;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.error-text {
+    color: red
+}
+
+.input-border-red {
+    border: 1.5px solid red;
+    border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+.dashboard-item {
+    border: 1px solid #333;
+    border-radius: 16px;
+    width: 20vw;
+    box-sizing: border-box;
+    padding: 15px;
+    min-height: 30vh;
+    margin: 15px
+}
+
+.dashboard-item:hover {
+    background-color: #d7d7d7;
+}
+
+.dashboard-item-status {
+    border: 1px solid #777;
+    border-radius: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: fit-content;
+}
+
+.dashboard-item-data {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.padding-left {
+    padding-left: 8px;
+}
+
+.align-end {
+    display: flex;
+    justify-content: flex-end;
+}
