@@ -9,7 +9,7 @@ const DashboardItem = ({ data, setActiveApplication }) => {
       className="dashboard-item"
       onClick={() => {
         setActiveApplication(data);
-        navigate("/addApplication");
+        navigate("/reviewApplication");
       }}
     >
       <div className="align-end">
